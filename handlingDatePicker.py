@@ -37,5 +37,5 @@ for ele in dates:
     if ele.text == date1:
         ele.click()
         time.sleep(1)
-        break;
+        break
 

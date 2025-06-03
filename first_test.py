@@ -31,4 +31,4 @@ if act_title == exp_title:
 else:
     print("Login test failed")
 
-# driver.close()
+driver.close()

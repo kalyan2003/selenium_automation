@@ -18,6 +18,7 @@ wait = WebDriverWait(driver, 10)
 
 file = "C:\\Users\\pavan\\Downloads\\file_example_XLS_10.xlsx"
 rows = xlUtils.getRowCount(file, "Sheet3")
+nothanks_but = driver.find_element(By.XPATH,"//button[@id='wzrk-cancel']").click()
 
 for r in range(2, rows + 1):
     price = xlUtils.readData(file, "Sheet3", r, 1)
